@@ -1,0 +1,114 @@
+/* Mi blog personal */
+h1 {
+    color: red;
+}
+p {
+    
+    color:rgb(3, 66, 22);
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none; /*quitar el subrayado*/
+    color:green;
+    font-weight: bold;
+}
+nav ul li a:hover { 
+    color:rgb(175, 11, 74); /*cambiar el color*/
+    text-decoration: underline; /* subrayado */
+}
+nav ul li a:focus {
+    outline: 2px solid orange; /*agregar un borde azul*/
+}
+section {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f5f5f5;
+    border: #720808 solid 1px;
+    border-radius: 5px;
+}
+article {
+    margin-bottom: 20px;
+    padding: 15px;
+    border:#720808 solid 1px;
+    background-color: #b5d81b;
+}
+h1 {
+    font-size: 36px;
+    color:rgb(255, 0, 0);
+    text-align: center;
+}
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color:red
+}
+h3 {
+    font-size: 22px;
+    color:blue;
+}
+section {
+    background-color: #0056c7ce;;
+    padding: 10px;
+    font-size: 20px;
+}
+.title {
+    color:rgb(8, 160, 145);
+    font-size: 22px;
+}
+.text {
+    color:royalblue;
+}
+.pie {
+    font-family: Arial, sans-serif;
+    background-color: darkred;
+    color:rgb(141, 212, 9);
+    text-align: center;
+    padding: 15px;
+}
+.text-footer {
+    font-size: 14px;
+}
+#inicio {
+    background-color: rgb(20, 168, 218);
+    padding: 20px;
+}
+nav ul li {
+    color:rgb(175, 11, 74);
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: rgba(234, 0, 255, 0.61);
+}
+nav ul li a:focus {
+    outline:2px solid orange;
+}
+nav ul li a:active {
+    color:#720808;
+}
+p::first-letter {
+    font-size: 20px;
+    line-height: 1.5em;
+    color:rgb(226, 12, 58);
+}
+footer {
+    font-family: Arial, sans-serif;
+    background-color: #fcc100;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0;
+    line-height: 1.5;
+}
+.text-footer { /*estilo para el texto del pie de pagina*/
+    font-size: 14px;
+    margin: 5px 0;
+}
+
